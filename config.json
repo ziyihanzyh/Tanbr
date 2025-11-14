@@ -1,0 +1,644 @@
+{
+    "model_name": "anli_r1",
+    "sample": [
+        {
+            "inputs": "Premise: The old bridge collapsed after years of neglect.\nHypothesis: The bridge was not properly maintained.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Sarah placed her keys on the kitchen counter before leaving.\nHypothesis: Sarah knows exactly where her keys are.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bakery introduced a new gluten-free bread.\nHypothesis: Customers now have an additional option for gluten-free products.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Michael walked into the meeting thirty minutes late.\nHypothesis: Michael arrived on time for the meeting.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bus was so crowded that many passengers had to stand.\nHypothesis: There were no available seats on the bus.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The teacher reminded the students to submit their assignments by Friday.\nHypothesis: The deadline for the assignment is Friday.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The restaurant received numerous complaints about slow service.\nHypothesis: Customers were unhappy with how long the service took.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Julia forgot to water her plants for several weeks.\nHypothesis: Julia's plants may have dried out.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Ben spent the whole night preparing for the exam.\nHypothesis: Ben did not study at all.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The new software update fixed several critical bugs.\nHypothesis: The software is now more stable than before.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The company announced a major hiring freeze.\nHypothesis: The company will not be recruiting new employees for now.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Emma bought a reusable water bottle to reduce plastic waste.\nHypothesis: Emma is trying to be more environmentally friendly.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The musician canceled his concert due to illness.\nHypothesis: The concert will not take place as originally planned.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The store extended its business hours during the holiday season.\nHypothesis: The store is now open longer than usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The doctor advised Adam to get more rest.\nHypothesis: Adam may have been overworking himself.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The authors published a revised edition of the textbook.\nHypothesis: The textbook has an updated version available.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The airport experienced heavy delays after the snowstorm.\nHypothesis: Flights were running behind schedule.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Laura misplaced her wallet somewhere in the shopping mall.\nHypothesis: Laura does not know where her wallet is.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The football team practiced every day to prepare for the upcoming tournament.\nHypothesis: The team is making efforts to improve their performance.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The chef added too much salt to the soup.\nHypothesis: The soup might taste overly salty.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "anli_r2",
+    "sample": [
+        {
+            "inputs": "Premise: The museum closed early due to a power outage.\nHypothesis: Visitors were unable to stay until the usual closing time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Karen read several books about gardening over the summer.\nHypothesis: Karen was interested in learning how to grow plants.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The dog barked loudly when the mail carrier approached the house.\nHypothesis: The dog reacted to the presence of the mail carrier.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The concert was canceled after the lead singer fell ill.\nHypothesis: The band performed as usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Tom forgot to charge his phone overnight.\nHypothesis: Tom's phone was fully charged in the morning.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bakery sold out of its new pastry within an hour.\nHypothesis: Customers showed strong interest in the new pastry.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Anna arrived at the airport two hours before her flight.\nHypothesis: Anna gave herself plenty of time before departure.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The classroom lights were off when the students entered.\nHypothesis: The room was brightly lit.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The new policy allows employees to work remotely twice a week.\nHypothesis: Employees now have the option to work from home occasionally.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The lake froze over during the coldest week of the year.\nHypothesis: The lake stayed completely liquid.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The restaurant offered a discount to customers who arrived before noon.\nHypothesis: Lunchtime customers could receive a lower price.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Claire left her umbrella at home despite the weather forecast predicting rain.\nHypothesis: Claire might get wet later in the day.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The new phone model supports wireless charging.\nHypothesis: Users can charge the phone without plugging in a cable.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The team worked relentlessly to meet the project deadline.\nHypothesis: The team put significant effort into finishing the project on time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The children's playground was renovated with new equipment.\nHypothesis: The playground now looks exactly the same as before.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The store increased its hours during the holiday season.\nHypothesis: The store is open longer than usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The chef replaced sugar with honey in the dessert recipe.\nHypothesis: The dessert contains sugar.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Paul tripped over a loose cable and dropped his coffee.\nHypothesis: Paul spilled his coffee because he lost his balance.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The roads were extremely icy, causing delays throughout the city.\nHypothesis: Traveling around the city became slower than usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The lighthouse has guided ships for more than a century.\nHypothesis: The lighthouse has existed for over one hundred years.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "anli_r3",
+    "sample": [
+        {
+            "inputs": "Premise: The scientist left the experiment running overnight, hoping to collect continuous data.\nHypothesis: The experiment was monitored throughout the night.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The city's main bridge was closed for repairs after engineers found structural damage.\nHypothesis: The bridge was open as usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Martha practiced the piano daily in preparation for her recital.\nHypothesis: Martha consistently rehearsed before the performance.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Heavy traffic caused Jake to arrive twenty minutes late to the meeting.\nHypothesis: Jake reached the meeting ahead of schedule.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The classroom windows were opened to improve ventilation during the warm afternoon.\nHypothesis: The windows were closed the entire time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Olivia bought a new sketchbook to improve her drawing skills.\nHypothesis: Olivia planned to practice drawing more often.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The librarian rearranged the fiction section to make books easier to find.\nHypothesis: The fiction section remained unchanged.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The coach encouraged the team to stay hydrated during practice.\nHypothesis: The coach emphasized the importance of drinking water.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The fire alarm malfunctioned and rang repeatedly through the evening.\nHypothesis: The fire alarm was silent all evening.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: After weeks of drought, the rainfall brought relief to local farmers.\nHypothesis: The rain helped alleviate the dry conditions.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The new software update fixed several bugs that users had reported.\nHypothesis: Users were still experiencing the same issues after the update.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Henry forgot to set his alarm and overslept.\nHypothesis: Henry woke up earlier than usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The company offered free training sessions to help employees learn the new system.\nHypothesis: Employees were provided with opportunities to understand the new system.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The restaurant introduced a vegan menu to attract more customers.\nHypothesis: The restaurant added new plant-based options.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The storm knocked out electricity across several neighborhoods.\nHypothesis: Many homes temporarily lost power.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Dana wore a jacket because the weather forecast predicted cold winds.\nHypothesis: Dana dressed lightly for warm weather.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The athlete trained for months to prepare for the marathon.\nHypothesis: The athlete made no effort before the race.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bakery sold gluten-free bread to cater to customers with dietary restrictions.\nHypothesis: Some of the bakery's offerings were suitable for gluten-free diets.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The children built a treehouse in their backyard during summer break.\nHypothesis: The children constructed something outdoors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The exhibit featured artifacts that were over a thousand years old.\nHypothesis: The artifacts in the exhibit were ancient.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "cb",
+    "sample": [
+        {
+            "inputs": "Premise: The cat slept on the windowsill all afternoon.\nHypothesis: The cat was resting in a sunny spot.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The mechanic repaired the car quickly.\nHypothesis: The car was fixed in a short amount of time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The teacher canceled class because of a sudden emergency.\nHypothesis: The class was held as usual.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Sarah bought ingredients to bake a cake.\nHypothesis: Sarah plans to prepare a dessert.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The hikers followed the trail signs carefully.\nHypothesis: The hikers paid attention to the directions.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The laptop battery died during the presentation.\nHypothesis: The laptop continued running with plenty of charge.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The dog wagged its tail when its owner came home.\nHypothesis: The dog was excited to see its owner.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The kitchen was filled with the smell of freshly baked bread.\nHypothesis: Someone recently baked bread in the kitchen.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The book received mixed reviews from critics.\nHypothesis: All critics unanimously praised the book.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The lights flickered during the thunderstorm.\nHypothesis: The electrical system was affected by the storm.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The young artist practiced sketching every day.\nHypothesis: The artist rarely practiced drawing.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The store ran out of the new gaming console by noon.\nHypothesis: The console was popular among customers.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The meeting was postponed due to scheduling conflicts.\nHypothesis: The meeting will occur at a later time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The team celebrated their victory after the match.\nHypothesis: The team lost the game.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Emma studied the map before beginning her hike.\nHypothesis: Emma prepared herself by looking at the map.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The store offered a discount to first-time customers.\nHypothesis: New customers paid full price.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The scientist documented every step of the experiment.\nHypothesis: The experiment was conducted without taking notes.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The garden was watered regularly throughout summer.\nHypothesis: The plants received consistent care.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Jake forgot his keys and had to wait outside for half an hour.\nHypothesis: Jake was unable to enter his house immediately.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bakery introduced a new seasonal pastry.\nHypothesis: The bakery added a limited-time item to its menu.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "mnli_matched",
+    "sample": [
+        {
+            "inputs": "Premise: The chef prepared a special dish for the guests.\nHypothesis: The chef cooked something unique for the visitors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The journalist published her article early in the morning.\nHypothesis: The article was released late at night.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The children gathered around the campfire to tell stories.\nHypothesis: The children enjoyed storytelling outdoors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The museum opened its new exhibit last weekend.\nHypothesis: A new exhibit became available to visitors recently.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The athlete fractured his leg during the competition.\nHypothesis: The athlete will need time to recover.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The company hired five new engineers this month.\nHypothesis: The company increased its technical staff.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The professor canceled today's lecture due to illness.\nHypothesis: There will be no lecture today.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The movie theater was crowded on opening night.\nHypothesis: Many people came to watch the movie premiere.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The gardener trimmed the bushes in the backyard.\nHypothesis: The gardener left the bushes untouched.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The student submitted all her assignments on time.\nHypothesis: The student missed multiple deadlines.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The manager reviewed the proposal thoroughly.\nHypothesis: The manager examined the document carefully.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The baby cried loudly when the toy broke.\nHypothesis: The baby was upset about the broken toy.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bus arrived ten minutes earlier than scheduled.\nHypothesis: The bus reached the stop ahead of time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The novelist spent years working on her latest book.\nHypothesis: The author dedicated significant time to writing the novel.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The shoppers lined up outside before the store opened.\nHypothesis: People waited to get inside the store.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The airplane experienced turbulence during the flight.\nHypothesis: The flight was completely smooth.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The librarian helped the student find the reference book.\nHypothesis: The librarian assisted the student with locating a book.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The engineer tested the new software for bugs.\nHypothesis: The engineer checked the program for errors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The tourists visited several landmarks during their trip.\nHypothesis: The tourists stayed in their hotel the entire time.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The pianist practiced daily to prepare for the concert.\nHypothesis: The pianist worked hard to get ready for the performance.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "mnli_mismatched",
+    "sample": [
+        {
+            "inputs": "Premise: The cat jumped onto the windowsill and watched the birds outside.\nHypothesis: The cat was observing something outdoors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A group of cyclists rode through the narrow forest trail.\nHypothesis: A group of people were traveling on bicycles.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The bakery closed early because they sold out all pastries.\nHypothesis: The bakery stayed open late into the night.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The toddler fell asleep in the car during the long drive.\nHypothesis: The child was resting while traveling.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Heavy rain caused the baseball game to be postponed.\nHypothesis: The game was delayed due to weather conditions.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The teacher distributed the final exam papers.\nHypothesis: The teacher handed out tests to students.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The man forgot to lock his bike and it was stolen.\nHypothesis: His bike was taken because he didn’t secure it.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The dog barked loudly at the mail carrier approaching the house.\nHypothesis: The dog made noise when someone neared the home.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The artist painted a landscape inspired by the mountains.\nHypothesis: The artist created a work based on nature.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The store offered discounts on all winter clothing.\nHypothesis: The store raised prices on coats.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The patient waited two hours before seeing the doctor.\nHypothesis: The patient was seen immediately by the doctor.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The hikers packed enough water for their long trip.\nHypothesis: The hikers prepared adequately for the journey.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The mechanic repaired the car's broken air conditioning.\nHypothesis: The mechanic fixed an issue with the vehicle.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The customers complained about slow service at the restaurant.\nHypothesis: The customers were pleased with how quickly they were served.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The scientist conducted several trials to confirm the result.\nHypothesis: The scientist repeated experiments to validate findings.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The woman adopted a puppy from the local shelter.\nHypothesis: She took in an animal without a home.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The train was delayed due to an unexpected technical issue.\nHypothesis: The train arrived earlier than planned.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The chef tasted the soup before serving it to customers.\nHypothesis: The chef checked the flavor of the soup.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The boy climbed the tall oak tree in his backyard.\nHypothesis: The boy was indoors playing video games.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: The volunteers organized a community cleanup event.\nHypothesis: People gathered to help tidy up the neighborhood.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "qnli",
+    "sample": [
+        {
+            "inputs": "Question: Did the author mention whether the museum had reopened?\nPassage: The museum remained closed throughout the winter for renovation, with no public timeline provided.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Is the chef known for using locally sourced ingredients?\nPassage: The chef emphasized the importance of supporting regional farmers and often highlighted seasonal produce.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the article confirm that the company launched a new smartphone?\nPassage: The press release hinted at several upcoming products but did not announce any devices.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the report say that rainfall increased this year?\nPassage: Meteorologists observed significantly higher precipitation levels compared to previous summers.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Was the athlete described as retiring after the event?\nPassage: The athlete stated that this competition would mark the end of her professional career.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the interview confirm that he moved to New York recently?\nPassage: He explained that he relocated to New York five months ago for a new job opportunity.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the passage state that the restaurant closed permanently?\nPassage: The restaurant temporarily shut its doors for renovation but plans to reopen in the spring.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Does the passage mention the book becoming a bestseller?\nPassage: Critics praised the novel’s unique structure, though it struggled to gain mainstream attention.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the article indicate that the festival would be canceled?\nPassage: Organizers reassured attendees that the festival would proceed as planned despite weather concerns.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the speaker say the bridge collapsed?\nPassage: The speaker noted that engineers discovered structural issues but no major failures had occurred.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Was the scientist credited with discovering the new species?\nPassage: The expedition team announced the discovery but did not attribute it to any single researcher.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the passage state that the artist received an award?\nPassage: Despite positive reviews, the artist’s work was overlooked during award nominations.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the historian claim the castle was built in the 14th century?\nPassage: The historian argued that the structure dates back to the early 1300s.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the article confirm that the team won the championship?\nPassage: The team advanced to the finals but lost in a close match.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Does the passage mention the professor retiring soon?\nPassage: The professor announced plans to step down at the end of the academic year.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the review say the movie exceeded expectations?\nPassage: The reviewer called the film predictable and lacking emotional depth.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Was the policy described as being widely supported?\nPassage: Several community groups criticized the proposal, arguing it lacked transparency.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the narrator say the trip lasted three days?\nPassage: The narrator recalled spending nearly a week exploring the coast.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Does the passage confirm the store is open on weekends?\nPassage: The store's new schedule limits operating hours to weekdays only.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Question: Did the passage say that she enjoys painting?\nPassage: She spends most of her free time working with watercolors and sketching landscapes.\n\nOPTIONS:\n- entails\n- not_entails"
+        }
+    ],
+
+
+    "model_name": "rte",
+    "sample": [
+        {
+            "inputs": "Premise: The company released a financial report stating that revenue grew steadily last year.\nHypothesis: The company experienced revenue growth.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The athlete trained daily but failed to meet the qualifying standard.\nHypothesis: The athlete qualified for the competition.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The book won several awards and received praise from critics.\nHypothesis: The book was well received.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The mayor announced that the city would begin constructing new bike lanes.\nHypothesis: The city plans to add bike lanes.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: Scientists found no evidence supporting the claim of a new particle.\nHypothesis: Scientists confirmed the existence of the new particle.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The school's cafeteria will be closed next week for maintenance.\nHypothesis: Students cannot buy lunch at the cafeteria next week.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The actor revealed in an interview that he had never visited Europe.\nHypothesis: The actor has been to Europe.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The report states that global temperatures have risen over the past decade.\nHypothesis: The planet is experiencing warming trends.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The festival was postponed due to a severe storm affecting the region.\nHypothesis: The festival did not happen as originally scheduled.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The teacher said the homework assignment must be submitted before Friday.\nHypothesis: Students are required to turn in their homework by Friday.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The doctor advised the patient to avoid sugary foods because of high blood sugar.\nHypothesis: The patient was told to reduce sugar intake.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The museum recently added several new ancient artifacts to its collection.\nHypothesis: The museum acquired new items.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The city council rejected the proposal to build a new sports center.\nHypothesis: The proposal for a new sports center was approved.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The patient reported that the medicine eliminated all symptoms within two days.\nHypothesis: The medicine was effective for the patient.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The chef mentioned that the restaurant sources its fish from local fisheries.\nHypothesis: The restaurant uses locally caught fish.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The company declined to comment on rumors of a merger.\nHypothesis: The company publicly discussed the merger.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The researchers discovered that the new material is lighter but stronger than steel.\nHypothesis: The new material is more durable than steel.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: Local authorities issued a warning after several bears were seen near residential areas.\nHypothesis: Bears have recently been spotted near homes.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The student failed to complete any of the required assignments.\nHypothesis: The student finished all of the assignments.\n\nOPTIONS:\n- entails\n- not_entails"
+        },
+        {
+            "inputs": "Premise: The author clarified that the character in the story is fictional.\nHypothesis: The character is not real.\n\nOPTIONS:\n- entails\n- not_entails"
+        }
+    ],
+
+    {
+    "model_name": "snli",
+    "sample": [
+        {
+            "inputs": "Premise: A man in a red jacket is hiking along a snowy mountain trail.\nHypothesis: A person is walking outdoors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Two kids are running through a sprinkler in the backyard.\nHypothesis: The children are playing with water.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A woman is sitting alone at a table inside a small cafe.\nHypothesis: She is attending a crowded concert.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A dog jumps to catch a frisbee in the park.\nHypothesis: The dog is playing fetch.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A chef is preparing vegetables in a busy restaurant kitchen.\nHypothesis: Someone is cooking food.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Several people are waiting at a bus stop during rush hour.\nHypothesis: The bus stop is empty.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A girl wearing headphones is drawing in her sketchbook.\nHypothesis: She is engaged in an art activity.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A swimmer is standing on the edge of a pool, preparing to dive.\nHypothesis: The person is reading a book.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Two men are playing guitars together on stage.\nHypothesis: Music is being performed.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A mother is helping her child tie shoelaces.\nHypothesis: The child is learning to get dressed.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A cyclist is competing in a race on a narrow road.\nHypothesis: Someone is riding a bicycle.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A man is sleeping on a bench in the park.\nHypothesis: The man is actively exercising.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: Three children are painting with bright colors at a classroom table.\nHypothesis: Art supplies are being used.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A woman in a lab coat is examining a test tube.\nHypothesis: She is conducting a scientific experiment.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A couple is walking hand-in-hand along the beach at sunset.\nHypothesis: They are hiking in the mountains.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A group of friends is gathered around a campfire at night.\nHypothesis: They are outdoors.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A man is holding an umbrella while standing in the rain.\nHypothesis: It is raining.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A woman is lifting weights at the gym.\nHypothesis: She is exercising.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A boy is eating an ice cream cone on a sunny day.\nHypothesis: The boy is eating dessert.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        },
+        {
+            "inputs": "Premise: A man in a suit is giving a presentation in front of a large audience.\nHypothesis: The man is speaking publicly.\n\nOPTIONS:\n- entailment\n- contradiction\n- neutral"
+        }
+    ],
+
+    "model_name": "wnli",
+    "sample": [
+        {
+            "inputs": "Premise: The doctor told the patient that he would recover soon.\nHypothesis: The patient would recover soon.\n\nDoes the hypothesis refer to the same 'he' as in the premise?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Sarah thanked Emily because she helped her finish the project.\nHypothesis: Emily helped Sarah finish the project.\n\nDoes the hypothesis resolve the pronoun correctly?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: John met Michael after he finished work.\nHypothesis: John finished work.\n\nIs 'he' in the premise referring to John?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The teacher scolded the student because he was late.\nHypothesis: The teacher was late.\n\nDoes 'he' in the premise refer to the teacher?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Laura called Mia when she arrived at the airport.\nHypothesis: Laura arrived at the airport.\n\nDoes the pronoun 'she' refer to Laura?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Tom lent his bike to Jake because he trusted him.\nHypothesis: Tom trusted Jake.\n\nIs 'he' in the premise referring to Tom?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The dog barked at the mailman when he approached the house.\nHypothesis: The mailman approached the house.\n\nDoes 'he' refer to the mailman?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Anna complimented Maria after she performed on stage.\nHypothesis: Maria performed on stage.\n\nDoes 'she' refer to Maria?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The scientist talked to the engineer while he was preparing the samples.\nHypothesis: The scientist was preparing the samples.\n\nDoes 'he' refer to the scientist?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Emma visited Lily after she graduated.\nHypothesis: Emma graduated.\n\nDoes 'she' refer to Emma?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The coach praised the player because he improved a lot.\nHypothesis: The player improved a lot.\n\nDoes 'he' refer to the player?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Mark apologized to Kevin after he broke the vase.\nHypothesis: Mark broke the vase.\n\nDoes the pronoun 'he' refer to Mark?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Rachel hugged Sophia when she heard the good news.\nHypothesis: Rachel heard the good news.\n\nDoes 'she' refer to Rachel?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Josh thanked Paul because he fixed the computer.\nHypothesis: Paul fixed the computer.\n\nDoes 'he' refer to Paul?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Olivia met Chloe after she won the award.\nHypothesis: Chloe won the award.\n\nDoes 'she' refer to Chloe?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The manager called the employee when he arrived at the office.\nHypothesis: The manager arrived at the office.\n\nDoes 'he' refer to the manager?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: David cheered up Alex after he lost the game.\nHypothesis: Alex lost the game.\n\nDoes 'he' refer to Alex?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: The mother comforted her son when he scraped his knee.\nHypothesis: The son scraped his knee.\n\nDoes 'he' refer to the son?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Brian lent his jacket to Sam because he was cold.\nHypothesis: Sam was cold.\n\nDoes 'he' refer to Sam?\nOPTIONS:\n- yes\n- no"
+        },
+        {
+            "inputs": "Premise: Lily told her sister that she would arrive late.\nHypothesis: Lily would arrive late.\n\nDoes 'she' refer to Lily?\nOPTIONS:\n- yes\n- no"
+        }
+    ]
+}
+
